@@ -1,0 +1,26 @@
+Git Configuration Commands
+git config --global user.name "[name]" - Set a user name that will be used for all commits in the current Git repository.
+git config --global user.email "[email address]" - Set an email address that will be used for all commits in the current Git repository.
+git config --global color.ui true - Enable Git to display colored output in the terminal.
+
+Creating and Cloning Repositories
+git init - Initialize a new Git repository in the current directory.
+git clone [url] - Create a copy of a remote Git repository on your local machine.
+
+Basic Workflow Commands
+git add [file] - Add a file or files to the staging area in preparation for a commit.
+git commit -m "[message]" - Commit changes to the local Git repository with a descriptive message.
+git status - Show the current status of the Git repository, including changes that have been made but not committed.
+git log - Show a list of all previous commits to the current Git repository.
+
+Branching and Merging Commands
+git branch - Show a list of all branches in the current Git repository.
+git branch [branchname] - Create a new branch with the specified name.
+git checkout [branchname] - Switch to the specified branch.
+git merge [branchname] - Merge the specified branch into the current branch.
+
+Remote Repository Commands
+git remote - Show a list of all remote repositories associated with the current Git repository.
+git remote add [name] [url] - Add a new remote repository with the specified name and URL.
+git push [remote] [branch] - Push the current branch to the specified remote repository.
+git pull [remote] [branch] - Pull changes from the specified remote repository and merge them into the current branch.
